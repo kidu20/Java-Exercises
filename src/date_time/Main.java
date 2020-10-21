@@ -11,10 +11,12 @@ public class Main {
 		RemainingMonths months = new RemainingMonths();
 		
 		months.remainingMonths();
+
 		
 		// My age
 		CalculateAge age = new CalculateAge();
 		age.calculateAge();
+
 
 	}
 
