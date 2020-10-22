@@ -14,11 +14,16 @@ public class Main {
 
 		
 		// My age
+		System.out.println("==========================================");
 		CalculateAge age = new CalculateAge();
 		age.calculateAge();
-
+		
+		// The next and previous Friday
+		System.out.println("=============================================");
+		InfoFriday friday = new InfoFriday();
+		friday.myFriday();
 
 	}
-
+	
 
 }

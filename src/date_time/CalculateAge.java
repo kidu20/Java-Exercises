@@ -15,6 +15,6 @@ public class CalculateAge {
 		
 		Period period = Period.between(myBirthday, currentTime);
 		
-		System.out.printf("I am %d years %d months %d days old \n ", period.getYears(),period.getMonths(), period.getDays());
+		System.out.printf("I am %d years %d months %d days old \n", period.getYears(),period.getMonths(), period.getDays());
 	}
 }
